@@ -1,0 +1,31 @@
+IDEAS:
+	-> How to make grinding/running around more fun:
+		-> Abilities
+			-> Dash (get around faster)
+			-> Jump (so you can get to resources you cannot get without jumping)
+		-> Power-ups you can buy from the ship, or a store on the island.
+			-> Gather faster
+			-> Gather more per yield
+			-> Resources respawn faster
+		-> Buying items
+			-> E.g. grind wood faster for an amount of time.
+			-> More resources per yield
+
+	-> How to make gameplay deeper:
+		-> Buy and/or upgrade buildings, to:
+			-> Continuously yield resources
+			-> Give more resources per yield
+	-> How to expand the game loop:
+		-> Adding to the loop with a mechanic which would bring more interaction between the players
+			-> Perhaps a combat mechanic (maybe hiering pirate ship to attack/rob other players)
+
+
+IDEAS TO MAKE GATHERING AND RUNNING FROM ISLANDS TO THE PORT A SMALLER PART OF THE GAME:
+	-> Cut out the market completely
+	-> You can send your trade boat from anywhere on your island
+	-> You can do trades, market and fill orders from anywhere on your island
+	-> You can do trades, market and fill orders from anywhere on your island ALL THE TIME (no ship)
+	-> Increase the amount of time that the ship is at each player
+	-> Reverse the goal, so there's a winner
+	-> Make it co-op, with all four players on the same island, trying to do <insert goal>
+		-> Build a successful settlement, like in Heroes of Might and Magic where you select a building type, and it just spawns at a specific position

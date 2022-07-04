@@ -1,0 +1,69 @@
+------------------
+|  NEEDED STUFF  |
+------------------
+
+
+----------
+|  SHIP  |
+----------
+	-> Make the ship start at a random player each round ???? really? Probably not.
+	-> (DONE) Count rounds down instead.
+	-> (DONE) Make rounds count down for each player individually (so each player can see how many visits he has left; also change the text to "Ship Visits Left")
+	-> (DONE) Copy the round indicator to the other side, and make it show the color and number of the player that the ship is moving towards.
+
+
+------------
+|  MARKET  |
+------------
+	(DONE) -> Do NOT create orders when you turn in an order, but only create 1 new order (if panel is not full) each time the ship leaves a port.
+
+
+---------------
+|  RESOURCES  |
+---------------
+	
+
+-------------
+|  VISUALS  |
+-------------
+	-> (DONE) Instead of a single ParticleSystem instance for the yield-particles, just instantiate a new prefab each time,
+	   so they can overlap time-wise, without having to have a very short life-time.
+	-> Fix that the resource MapMarkers keep being set to active.
+
+
+-----------
+|   GUI   |
+-----------
+	-> (Martin) Distinctive graphics for ALL the trade panels, so you don't have to decifer the UI content, to know which panel you're on.
+
+
+-----------
+|  SOUND  |
+-----------
+Action:
+	-> (DONE, MAYBE REPLACE) Sending small boat
+	-> (DONE, MAYBE REPLACE) Ship leaves
+	-> (DONE) Separate the gathering sounds from the actual yields.
+
+Trading:
+	-> Buying things => Coin sound
+	-> Selling things => Chi-ching sound
+	-> Add things to trade order => small tick sound
+	-> Remove things to trade order => maybe also small tick sound?
+
+--------------------
+|  SHIT FOR LATER  |
+--------------------
+Camera (Jonas):
+	-> Make movement only take place in X,Z plane, so translate the Y-movement (from the camera-to-player-vector to the X,Z vector)
+
+Player model:
+	-> Another player model, maybe?
+	-> Animate player model
+
+------------------------------
+|  PERFORMANCE IMPROVEMENTS  |
+------------------------------
+Environment
+	-> (Martin) Bake lights
+	-> (Martin) Remove objects (depends on the performance)

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 1.unity
+    guid: 278d16977c470a34c8021c281fcc5ebe
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 2.unity
+    guid: 4ae0a0f215e341b43ab8df26b21a4acc
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 3.unity
+    guid: 8af0acaeaf5ea04458f67a71aea71e21
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 4.unity
+    guid: 6e4551291da9b204882eb2f57352b638
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 5.unity
+    guid: b0cba3aeacc657d4fb2c8e3b1f6694b1
+  - enabled: 1
+    path: Assets/Scenes/Guide/Guide Page 6.unity
+    guid: 06d6e7da32ae3ac48bbd7ffe7c43ee7b
+  - enabled: 1
+    path: Assets/Scenes/Test Scenes/Mash-up Test.unity
+    guid: 95537ae9c64bf6c438ea2021bf669169
+  - enabled: 0
+    path: Assets/Scenes/Test Scenes/Luke Test.unity
+    guid: c6aae85fd23693942be725987abea274

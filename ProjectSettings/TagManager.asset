@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WayPoint
+  - StopWayPoint
+  - Reed
+  - NextPlayerWayPoint
+  - Resource
+  - Island
+  - BuyShop
+  - Ship
+  - Boat
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Resource
+  - World Colliders
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MapMarkers
+    uniqueID: 2034263127
+    locked: 0
+  - name: UI
+    uniqueID: 2141601789
+    locked: 0

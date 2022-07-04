@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e22e6b651aeec4b49b8746bb0906d48d
+timeCreated: 1510930958
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Aloha
+  fontNames:
+  - Aloha
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

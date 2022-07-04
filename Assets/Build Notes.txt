@@ -1,0 +1,9 @@
+THINGS YOU NEED TO DO, BEFORE MAKING A BUILD:
+
+- Bake the lights
+- Set ship timers
+	- TimeToWaitAtPort: 30
+	- DelayBetweenPlayers: 0
+	- DelayBeforeStart: 90
+- PlayerInventory: Comment out SetupFakeAmounts in Start()
+- ShipMovement script => Check that the player is selected randomly in Awake()

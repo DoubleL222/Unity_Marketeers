@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1897395887290060}
+  m_IsPrefabParent: 1
+--- !u!1 &1897395887290060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4748272745697662}
+  - component: {fileID: 114062015318181306}
+  - component: {fileID: 114872954482007582}
+  m_Layer: 0
+  m_Name: Singletons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4748272745697662
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897395887290060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114062015318181306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897395887290060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65493b15439609499d8896ddd32db35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SellValueIron: 0
+  SellValueWood: 0
+  SellValueGem: 0
+  SellValueSpice: 0
+  BuyValueIron: 0
+  BuyValueWood: 0
+  BuyValueGem: 0
+  BuyValueSpice: 0
+  IronSprite: {fileID: 21300000, guid: 4fdfdad84921b0649a142e57b983acd9, type: 3}
+  WoodSprite: {fileID: 21300000, guid: c9802d668454d8f4f8550394178ae56e, type: 3}
+  GemSprite: {fileID: 21300000, guid: 3748b23f1043cd841912ceda59de0a72, type: 3}
+  SpiceSprite: {fileID: 21300000, guid: b8a72600f6569b34ea2e76c876b57bac, type: 3}
+  GoldSprite: {fileID: 21300000, guid: c434e397205e9b64186a01491b4bff2e, type: 3}
+  WoodPickFloat: 1
+  IronPickFloat: 1
+  SpicePickFloat: 3
+  GemPickFloat: 4
+--- !u!114 &114872954482007582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897395887290060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a740d0a9ee12e48a9501a009eda32e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1Color: {r: 0.7647059, g: 0.3988466, b: 0.3988466, a: 1}
+  player2Color: {r: 0.50312376, g: 0.7647059, b: 0.4, a: 1}
+  player3Color: {r: 0.4, g: 0.6439758, b: 0.7647059, a: 1}
+  player4Color: {r: 0.6691277, g: 0.4, b: 0.7647059, a: 1}
+  _playerInputs: []
+  multiplierSprite: {fileID: 21300000, guid: 79bbb3943ddaa7647a377b9925d6d63e, type: 3}
+  ShipRoundsPerGame: 4
+  GameEndedRestartDelay: 3
+  ResourcesPerIsland: 2

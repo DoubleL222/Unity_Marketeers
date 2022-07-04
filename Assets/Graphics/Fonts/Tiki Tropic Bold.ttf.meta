@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 56e2c74370b25b84c84997ab401dbf38
+timeCreated: 1510930958
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tiki Tropic
+  fontNames:
+  - Tiki Tropic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 36c2a4940e19ba644a03c0b3bc40ae46, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
